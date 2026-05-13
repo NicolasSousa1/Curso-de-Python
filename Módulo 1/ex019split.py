@@ -1,4 +1,4 @@
-import random
+from random import choice
 
 print("Hello world!")
 lista = ''
@@ -15,4 +15,4 @@ while i < 4:
 ListaSeparada = lista.split()
 print(ListaSeparada)
 
-print("O sorteado foi {}".format(random.choice(ListaSeparada)))
+print("O sorteado foi {}".format(choice(ListaSeparada)))
